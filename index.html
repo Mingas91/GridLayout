@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Ink</h1>
+    </header>
+    <nav>
+        <ul class="site-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Support</a></li>
+            <li class="nav-right">
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main tile">
+        <h1>Some Title</h1>
+        <p>Some text</p>
+        <p>Some text</p>
+    </main>
+    <div class="sidebar-top tile">
+        <form class="login-form">
+            <h3>Login</h3>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <div class="sidebar-bottom tile centered">
+        <small>Starting at</small>
+        <div class="cost">
+            <span class="cost-currency">$</span>
+            <span class="cost-dollar">20</span>
+            <span class="cost-cents">20</span>
+        </div>
+        <a href="#" class="cta-button">Sign Up</a>
+    </div>
+</div>
+</body>
+</html>
